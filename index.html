@@ -51,7 +51,7 @@
                     </form>
                   </div>
                 </li>
-                <li><a class="text-header" href="#">Trang chủ</a></li>
+                <li><a class="text-header trangchu" href="#">Trang chủ</a></li>
               </ul>
             </nav>
           </div>
@@ -59,23 +59,120 @@
       </div>
     </div>
     <div id="main">
-      <div class="product">
-        <div class="product-img">
-          <img src="./img/trangxanh1.jpg" />
-        </div>
-        <div class="space"></div>
-        <div class="title-product">
-          <div class="name-product"></div>
-          <div class="price-product"></div>
+      <div id="list-product" class="list-product">
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/trangxanh1.jpg" />
+          </div>
+          <div class="space"></div>
+          <div class="title-product">
+            <div class="name-product"></div>
+            <div class="price-product"></div>
 
-          <input
-            type="button"
-            name="hinorder"
-            class="btn-one"
-            id="1"
-            onclick="showModal(1)"
-            value="Xem thêm"
-          />
+            <input
+              type="button"
+              name="hinorder"
+              class="btn-one"
+              id="1"
+              onclick="showModal(1)"
+              value="Xem thêm"
+            />
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/trangxanh1.jpg" />
+          </div>
+          <div class="space"></div>
+          <div class="title-product">
+            <div class="name-product"></div>
+            <div class="price-product"></div>
+
+            <input
+              type="button"
+              name="hinorder"
+              class="btn-one"
+              id="1"
+              onclick="showModal(1)"
+              value="Xem thêm"
+            />
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/trangxanh1.jpg" />
+          </div>
+          <div class="space"></div>
+          <div class="title-product">
+            <div class="name-product"></div>
+            <div class="price-product"></div>
+
+            <input
+              type="button"
+              name="hinorder"
+              class="btn-one"
+              id="1"
+              onclick="showModal(1)"
+              value="Xem thêm"
+            />
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/trangxanh1.jpg" />
+          </div>
+          <div class="space"></div>
+          <div class="title-product">
+            <div class="name-product"></div>
+            <div class="price-product"></div>
+
+            <input
+              type="button"
+              name="hinorder"
+              class="btn-one"
+              id="1"
+              onclick="showModal(1)"
+              value="Xem thêm"
+            />
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/trangxanh1.jpg" />
+          </div>
+          <div class="space"></div>
+          <div class="title-product">
+            <div class="name-product"></div>
+            <div class="price-product"></div>
+
+            <input
+              type="button"
+              name="hinorder"
+              class="btn-one"
+              id="1"
+              onclick="showModal(1)"
+              value="Xem thêm"
+            />
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img src="./img/trangxanh1.jpg" />
+          </div>
+          <div class="space"></div>
+          <div class="title-product">
+            <div class="name-product"></div>
+            <div class="price-product"></div>
+
+            <input
+              type="button"
+              name="hinorder"
+              class="btn-one"
+              id="1"
+              onclick="showModal(1)"
+              value="Xem thêm"
+            />
+          </div>
         </div>
       </div>
       <!-- <div id="img-zoomer-box">
@@ -103,7 +200,7 @@
           });
         </script>
 
-        <form method="POST" class="form-order">
+        <form method="POST">
           <div class="formthongtin">
             <div>
               <p class="text-header1" id="text-title">Rạp trắng xanh</p>
@@ -470,6 +567,7 @@
         var keyCode = e.key || e.keyIdentifier || e.keyCode;
         if (keyCode == 27 || keyCode == "Escape") {
           document.getElementById("formtobuy").style.visibility = "hidden";
+          document.getElementsByClassName("body")[0].style.overflow = "scroll";
         }
       };
     </script>
@@ -479,7 +577,7 @@
       var h = screen.height;
       var width = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
-      console.log(w + " " + h + " " + ratio + " " + width);
+      var b = console.log(w + " " + h + " " + ratio + " " + width);
     </script>
   </body>
 </html>
