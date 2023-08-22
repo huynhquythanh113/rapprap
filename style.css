@@ -601,6 +601,9 @@ div#img-zoomer-box2 img {
 width: fit-content;
 height: 300px;
 }
+input.find-c{
+  width: 150px;
+}
 }
 nav {
     min-width: 0px;
