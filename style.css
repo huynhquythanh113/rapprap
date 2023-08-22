@@ -556,6 +556,13 @@ div#img-zoomer-box2 img {
     height: 400px;
 }
 @media  (max-width: 750px) {
+  .text-header {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 10px;
+    font-weight: 700;
+    color: black;
+}
    .list-product 
    {
     display: flex;
@@ -612,16 +619,10 @@ select.form-select {
     width: 100px;
     min-width: 100px;
 }
-.text-header {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 20px 10px;
-    font-weight: 700;
-    color: black;
-}
 }
 nav {
     min-width: 0px;
+    display: flex;
 }
 li {
     display: flex;
